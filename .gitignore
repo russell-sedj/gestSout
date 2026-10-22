@@ -21,3 +21,6 @@ logs
 .env
 .env.*
 !.env.example
+
+# Fichiers d'import ponctuels (ne pas versionner de données nominatives)
+Classeur1.csv
