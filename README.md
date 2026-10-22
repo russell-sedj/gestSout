@@ -1,6 +1,6 @@
 # Gestion des soutenances — Tics Master
 
-Application de gestion des soutenances universitaires développée pendant un stage chez Tics Master. Elle couvre le suivi des étudiants, la vérification des conditions de passage, la programmation des soutenances et l'import/export des données.
+Application de gestion des soutenances universitaires développée pour Tics Master. Elle couvre le suivi des étudiants, la vérification des conditions de passage, la programmation des soutenances et l'import/export des données.
 
 ## Stack
 
@@ -74,7 +74,7 @@ L'authentification est gérée par `@sidebase/nuxt-auth`. Aucune donnée nominat
 
 ## Notes
 
-- Projet réalisé en stage chez Tics Master.
+- Projet réalisé pour Tics Master.
 - L'import/export CSV est une fonctionnalité métier : les fichiers importés ne doivent pas être commités.
 - Les variables d'environnement et la chaîne de connexion MySQL restent locales.
 
