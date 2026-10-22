@@ -70,7 +70,7 @@ Trois entités principales :
 - `direction` : établissement, date limite, étudiants rattachés.
 - `admin` : administration de la plateforme.
 
-Les mots de passe sont stockés via le mécanisme d'authentification du projet. Aucune donnée nominative réelle n'est versionnée dans le dépôt.
+L'authentification est gérée par `@sidebase/nuxt-auth`. Aucune donnée nominative réelle n'est versionnée dans le dépôt.
 
 ## Notes
 
