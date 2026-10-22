@@ -20,4 +20,20 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+
+  // Les pages utilisent `await $fetch` au niveau supérieur du <script setup>.
+  // On cible les navigateurs modernes pour que Vite accepte le top-level await.
+  vite: {
+    build: {
+      target: "esnext",
+    },
+  },
+
+  nitro: {
+    esbuild: {
+      options: {
+        target: "esnext",
+      },
+    },
+  },
 });
